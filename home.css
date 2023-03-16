@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-items: center;
+    justify-content:space-around;
+    text-align: center;
+    background-image: url(images/máquina-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;   
+    
+}
+
+a{
+   color: white;
+   text-decoration: none;
+   text-align: center;
+   padding-right: 20px;
+   
+}
+
+
+
+.links{
+   margin-top: 50px;
+   margin-bottom:30px ;
+}
+
+
+
+
+.link:hover{
+    transition: 0.5s;
+    border: 1px solid white;
+    background-color: gray;
+    border-radius: 5px;
+   
+}
+
+
+i{
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    background-color: rgba(128, 128, 128, 0.534);
+    border-radius: 5px;
+}
+
+menu{
+    display: none;
+}
+
+.menu:hover{
+    transition: 0.5s;
+    border: 1px solid white;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+#perfil{
+ 
+    display: block;
+  
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 5px;
+     
+  }
+
+
+  article{
+    color: #ccc;
+  }
+
+  .somos{
+    text-align: center;
+    padding-top: 15px ;
+    padding-bottom: 15px;
+  }
+
+  .article{
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .img{
+    text-align: center;
+  }
+
+  .img1{
+    padding-right: 15px;
+  }
+
+  .img2{
+    padding-right: 15px;
+  }
+
+  .img3{
+    padding-right: 15px;
+  }
+
+
+  
+
+  h3{
+    font-size: 30px;
+    padding-top: 15px;
+    color: #ccc;
+    text-align: center;
+  }
+
+  .redes{
+   text-align: center;
+   max-width: 200px;
+  }
+
+  #social{
+    display: flex;
+    max-width: 400px;
+  
+ }
+
+
+ /* página contatos */
+
+h2{
+  color: #ccc;
+  
+}
+
+main{
+  text-align: center;
+}
+
+.social{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+ 
+  justify-items: center;
+}
+
+#insta{
+  padding-top: 15px;
+  width: 230px;
+}
+
+#facebook{
+  width: 320px;
+}
+
+#whats{
+  width: 220px;
+}
+
+.insta{
+  color: #ccc;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+.facebook{
+  color: #ccc;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+.whats{
+  color: #ccc;
+  font-size: 18px;
+}
+
+footer{
+  color: #ccc;
+  text-align: center;
+  background-color: rgba(97, 97, 97, 0.137);
+  font-size: 20px;
+  margin-top: 30px;
+ 
+  
+}
+
+
+
+/* página agenda */
+
+section{
+  
+}
+
+.agenda{
+    padding-bottom: 10px;
+}
+
+.aviso{
+  text-align: center;
+  color: #ccc;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  
+}
+
+table{
+  color: #ccc;
+  border: 1px solid white;
+  width: 400px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(128, 128, 128, 0.349);
+}
+
+td{
+  border: 1px solid white;
+}
