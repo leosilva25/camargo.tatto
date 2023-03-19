@@ -1,0 +1,100 @@
+
+
+
+
+
+.works{
+    padding-top: 20px;
+}
+
+.photos{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.center{
+    text-align: center;
+}
+
+.img01{
+    padding-top: 20px;
+    width: 300px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+
+.img02{
+    padding-top: 20px;
+    width: 280px ;
+    height: 300px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+   
+}
+
+.img03{
+    padding-top: 20px;
+    width: 250px ;
+    height: 310px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+}
+
+.img04{
+    padding-top: 20px;
+    width: 270px ;
+    height: 300px;
+    padding-bottom: 15px;
+}
+
+.img05{
+    padding-top: 20px;
+    width: 240px ;
+    height: 300px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* DRAGON BALL Z*/
+
+
+
+.dragon{
+    padding-bottom: 20px;
+}
+
+.child{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.dragao{
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+.majinboo{
+    width: 280px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+.vegeta{
+    width: 250px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+.goku{
+    width: 270px;
+    
+}
+

@@ -9,6 +9,20 @@ body{
 }
 
 
+span{
+  cursor: pointer;
+  color: white;
+  
+}
+
+span:hover{
+  background-color: #cccccc4d;
+  border: 1px solid rgba(255, 255, 255, 0.658);
+  border-radius: 5px;
+  transition: 0.7s;
+}
+
+
 .header{
     display: flex;
     flex-wrap: wrap;
@@ -19,8 +33,14 @@ body{
     background-image: url(images/máquina-removebg-preview.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center center ;   
+    background-position:center center;   
     
+}
+
+.main{
+  color: white;
+  padding-bottom: 15px;
+  font-size: 18px;
 }
 
 a{
@@ -32,14 +52,15 @@ a{
 }
 
 
-
 .links{
    margin-top: 50px;
-   margin-bottom:30px ;
+   margin-bottom:30px;
+   display: inline-flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
 }
-
-
-
+   
 
 .link:hover{
     transition: 0.5s;
@@ -115,7 +136,11 @@ menu{
   }
 
 
-  
+  .flex{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
   h3{
     font-size: 30px;
@@ -138,70 +163,8 @@ menu{
 
  /* página contatos */
 
-h2{
-  color: #ccc;
-  
-}
-
-main{
-  text-align: center;
-}
-
-.social{
-  text-align: center;
-  display: flex;
-  flex-direction: column;
  
-  justify-items: center;
-}
-
-#insta{
-  padding-top: 15px;
-  width: 230px;
-}
-
-#facebook{
-  width: 320px;
-}
-
-#whats{
-  width: 220px;
-}
-
-.insta{
-  color: #ccc;
-  font-size: 18px;
-  padding-bottom: 30px;
-}
-
-.facebook{
-  color: #ccc;
-  font-size: 18px;
-  padding-bottom: 30px;
-}
-
-.whats{
-  color: #ccc;
-  font-size: 18px;
-}
-
-footer{
-  color: #ccc;
-  text-align: center;
-  background-color: rgba(97, 97, 97, 0.137);
-  font-size: 20px;
-  margin-top: 30px;
- 
-  
-}
-
-
-
 /* página agenda */
-
-section{
-  
-}
 
 .agenda{
     padding-bottom: 10px;
@@ -219,7 +182,7 @@ section{
 table{
   color: #ccc;
   border: 1px solid white;
-  width: 400px;
+  width: 300px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
