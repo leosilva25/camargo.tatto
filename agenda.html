@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agenda</title>
     <link rel="shortcut icon" href="favicon/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="agenda.css">
 
 </head>
 <body>
@@ -19,105 +19,50 @@
     </header>
 
     <main>
-        <h2>Nossa agenda será atualizada todos os dias, então fique de olho nas datas disponíveis</h2>
+        <h2 class="h2">Nossa agenda será atualizada todos os dias, então fique de olho nas datas disponíveis</h2>
             <p class="aviso"><strong>Atenção:</strong> para desmarcamento de sua sessão nos contatar até 48h antes de sua sessão</p>
 
         <div>
-            <h3 class="agenda"><strong>Horários Indisponíveis</strong></h3>
+            <h4 class="agenda"><strong>Marque seu Horário !</strong></h4>
         </div>
 
 
         <section>
 
-           
-            <table>
-                <tr>
-                    <td>
-                        DIA
-                    </td>
 
-                    <td>
-                        HORÁRIO
-                    </td>
-                </tr>
+            <div class="agenda-cadastro">
+                <input class="agenda" type="text" placeholder="Digite o dia... " name="agenda_cadastro">
 
-                <tr>
-                    <td>17/03</td>
-                    <td>08:00</td>
-                </tr>
+                <div>
+                    <input class="horario" id="hour" type="text" placeholder="digite o horario..." name="horario">
+                </div>
 
-                <tr>
-                    <td>18/03</td>
-                    <td>14:00</td>
-                </tr>
+                <input class="" type="submit" value="Salvar" name="acao">
+            </div>
 
-                <tr>
-                    <td>19/03</td>
-                    <td>15:00</td>
-                </tr>
+            <div class="content">
 
-                <tr>
-                    <td>20/03</td>
-                    <td>10:00</td>
-                </tr>
+               
+              
+               <table>
+                   <thead class="hour-1">
+                       <th>Dia</th>
+                       <th>Horários</th>
+                   </thead>
 
-                <tr>
-                    <td>21/03</td>
-                    <td>11:00</td>
-                </tr>
-
-                <tr>
-                    <td>22/03</td>
-                    <td>11:00</td>
-                </tr>
                
 
-                <tr>
-                    <td>23/03</td>
-                    <td>16:00</td>
-                </tr>
+                   <tbody class="tbody">
+                      
+                   </tbody>
+               </table>
 
-                <tr>
-                    <td>24/03</td>
-                    <td>12:00</td>
-                </tr>
-
-                <tr>
-                    <td>25/05</td>
-                    <td>18:00</td>
-                </tr>
-
-                <tr>
-                    <td>26/06</td>
-                    <td>19:00</td>
-                </tr>
-
-                <tr>
-                    <td>27/03</td>
-                    <td>17:00</td>
-                </tr>
-              
-                <tr>
-                    <td>28/03</td>
-                    <td>20:00</td>
-                </tr>
-
-                <tr>
-                    <td>29/03</td>
-                    <td>09:30</td>
-                </tr>
-
-                <tr>
-                    <td>30/03</td>
-                    <td>10:30</td>
-                </tr>
-
-                <tr>
-                    <td>31/03</td>
-                    <td>15:30</td>
-                </tr>
-            </table>
+                <div class="input">
+                  
+                  </div>
         </section>
+
+            </div>
 
     </main>
 
@@ -126,5 +71,8 @@
     <footer>
         <p>Todos os direitos reservado &copy;Camargo's Tatto 2023</p>
     </footer>
+
+
+    <script src="agenda.js"></script>
 </body>
 </html>

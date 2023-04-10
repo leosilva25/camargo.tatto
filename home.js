@@ -18,10 +18,3 @@ function mudouTamanho(){
 }
 
 
-function clickMais(){
-    if(mais.style.dysplay == 'block'){
-        mais.style.display = 'none'
-    } else {
-        mais.style.display = 'block'
-    }
-}
